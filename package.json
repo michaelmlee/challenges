@@ -1,0 +1,23 @@
+{
+  "name": "challenges",
+  "version": "0.0.1",
+  "description": "coding interview problems",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmlee/challenges.git"
+  },
+  "author": "mlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmlee/challenges/issues"
+  },
+  "homepage": "https://github.com/michaelmlee/challenges#readme"
+}

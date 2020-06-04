@@ -1,3 +1,11 @@
+#ide configurations
 launch.json
 tasks.json
 .vscode
+
+#npm configurations
+node_modules
+package-lock.json
+
+#jest configurations
+coverage
