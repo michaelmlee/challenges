@@ -60,7 +60,5 @@ describe("Print Column Name", () => {
     test("4815162342", () => {
         expect(printColName(4815162342)).toBe('OOFZIEP');
     });
-
-
 });
 

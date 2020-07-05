@@ -2,10 +2,9 @@ function printColName(input){
     const alphabet = ["Z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"];
     let i = input;
     let colNameArray = [];
-    console.log(i);
+
     while (i > 0){
         const remainder = i % 26;
-        console.log(i);
         colNameArray.unshift(alphabet[remainder]);
         i = remainder === 0 ? Math.floor(i / 26) - 1 : Math.floor(i / 26);
     }
