@@ -38,6 +38,8 @@ function mergeArrays (p, q){
   return sortedArray;
 }
 
+// time: o(y)
+// space: o(x/2)
 function mergeXArrays(a){
   const sortArr = [];
   if(a.length === 1)
